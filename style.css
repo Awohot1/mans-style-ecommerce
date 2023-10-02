@@ -432,6 +432,7 @@ Testimonials
   text-align: center;
 }
 .single-card {
+  -webkit-margin-after: 2rem;
   margin-block-end: 2rem;
   margin-inline: 1rem;
   padding: 1rem;
@@ -463,6 +464,7 @@ Testimonials
 .user-name {
   letter-spacing: 0.1rem;
   font-weight: 600;
+  -webkit-margin-after: 0;
   margin-block-end: 0;
 }
 
@@ -491,11 +493,13 @@ PARTNERSHIP
 }
 .partner-logo {
   flex: 1 0 20%;
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   max-width: 200px;
 }
 
 .partner-logo:hover {
+  -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
 @media screen and (max-width: 767px) {
@@ -518,7 +522,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   width: 90vw;
   max-width: 1300px;
   margin-inline: auto;
@@ -546,6 +550,7 @@ footer {
 /* Footer App Store */
 .app-store-logo img {
   max-width: 180px;
+  -webkit-margin-end: 1rem;
   margin-inline-end: 1rem;
 }
 .app-store h5 {
@@ -781,6 +786,7 @@ td input {
   display: inline-block;
   width: 80px;
   height: 80px;
+  -webkit-margin-end: 1rem;
   margin-inline-end: 1rem;
 }
 td {
@@ -872,6 +878,7 @@ ACCOUNT
   font-size: 1rem;
   font-weight: bold;
   display: inline-block;
+  -webkit-margin-end: 2rem;
   margin-inline-end: 2rem;
   text-align: center;
   cursor: pointer;
